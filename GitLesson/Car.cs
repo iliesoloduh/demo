@@ -8,7 +8,12 @@ namespace GitLesson
     {
         public Car()
         {
-            Console.WriteLine("Hello from Car class!");
+            Console.WriteLine("Hello from Car default constructor!");
+        }
+
+        public Car(string model, int year)
+        {
+            Console.WriteLine($"Model: {model}, Year: {year}");
         }
     }
 }
