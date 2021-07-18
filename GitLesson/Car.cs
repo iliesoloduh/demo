@@ -14,6 +14,12 @@ namespace GitLesson
         public Car(string model, int year)
         {
             Console.WriteLine($"Model: {model}, Year: {year}");
+
+        }
+
+        public Car(string name)
+        {
+            Console.WriteLine($"Hello from {name}");
         }
     }
 }
